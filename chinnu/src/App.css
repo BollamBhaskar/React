@@ -1,0 +1,203 @@
+/* //* body{
+    margin: 0;
+}
+#Layout{
+    display: flex;
+}
+#Right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}  */
+
+
+/* Reset & base */
+/* * {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+/* body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+} */
+
+/* Form container */
+/* form {
+  background: #ffffff;
+  padding: 30px 35px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+} */
+
+/* Labels */
+/* label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+} */
+
+/* Inputs */
+/* input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}  */
+
+/* input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+}  */
+
+/* Submit button */
+/* button {
+  width: 100%;
+  padding: 12px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+} */
+
+/* button:hover {
+  background: #5a67d8;
+  transform: translateY(-1px);
+}  
+
+button:active {
+  transform: translateY(0);
+} */ 
+
+/* Toastify tweaks */
+/* .Toastify__toast {  
+  border-radius: 8px;
+  font-size: 14px; */
+/* } */
+
+
+
+/* 
+body {
+  margin: 0;
+  background: #111;
+} */
+
+/* .scene {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#222, #000);
+  overflow: hidden;
+} */
+
+/* Character */
+/* .character {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  font-size: 48px;
+  transition: transform 0.03s linear;
+} */
+
+/* Door */
+/* .door-container {
+  position: absolute;
+  bottom: 20px;
+  left: 350px;
+  width: 80px;
+  height: 140px; */
+  /* perspective: 600px;
+}
+
+.door {
+  width: 100%;
+  height: 100%;
+  background: brown;
+  transform-origin: left;
+  transition: transform 1s ease;
+} */
+
+/* Door open animation */
+/* .door.open {
+  transform: rotateY(-90deg);
+}  */
+
+
+
+
+
+
+
+
+
+
+.cart-icon {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  padding: 3px 6px;
+  border-radius: 50%;
+}
+
+/* MODAL */
+.cart-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(238, 240, 238, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-box {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  border-radius: 8px;
+   max-height: 400px;
+  overflow-y: auto;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
